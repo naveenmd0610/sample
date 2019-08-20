@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+    int i,n,a[100],sum=0;
+    printf("Entert the number of elements\n");
+    scanf("%d",&n);
+    n=n*2;
+    for(i=0;i<n;i++)
+    {
+        if(i%2==0)
+        {
+            if(i%3==0)
+            {
+            sum=sum+i;
+            }
+        }
+    }
+    printf("Sum=%d",sum);
+}
