@@ -23,3 +23,4 @@ int main()
       printf("%d\n",k-min);
     }
     return 0;
+}
