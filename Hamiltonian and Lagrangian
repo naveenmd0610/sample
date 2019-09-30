@@ -2,6 +2,7 @@
 void main()
 {
 int n;
+printf("enter the n value\n");
 scanf("%d",&n);
 int a[n],count=0;
 for(int i=0;i<n;i++)
